@@ -18,6 +18,14 @@ h3 {
   font-family: georgia;
 }
 
+h4 {
+    font-size: 12pt;
+    background-color: white;
+    margin: 70px;
+    padding: 30px;
+    font-family: georgia;
+}
+
 h5 {
   color: black;
   font-family: georgia;
