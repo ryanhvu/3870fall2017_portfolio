@@ -4,19 +4,13 @@
 /*font-family: 'Slabo 27px', serif;
 font-family: 'Amatic SC', cursive;
 font-family: 'Sedgwick Ave Display', cursive; */
+
+
 .container {
- width: 1200px;
+ width: 1280px;
  margin-left:auto;
  margin-right:auto;
 }
-
-/*.image-cropper {
-    width: 25%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}*/
 
 img {
     display: block;
@@ -124,33 +118,26 @@ h5 {
   overflow: hidden;
 }
 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 736px)
+  and (max-device-width: 1280px) {
 
+    .container {
+     width: 1280px;
+     margin-left:auto;
+     margin-right:auto;
+    }
 
-@media only screen and (min-width: 600px){
-  p.mobile{
-    display:none;
+}
+
+@media only screen and (max-width:800px) {
+  .container {
+   width: 736px;
+   margin-left:auto;
+   margin-right:auto;
   }
 
-  h4.mobile{
-    display:none;
-  }
-/*  .smallselfie{
-    display:none;
-  } */
-}
-@media only screen and (max-width:601px) {
-
 }
 
-/* .selfie{
-  display:none;
-} */
-
-
-
-  /* CSS for screens that are 600 pixels or less will be put in this section */
 }
-
-#indexpage .navigationhome li:nth-child(1) {background-color: yellow;}
-#portfoliopage .navigationportfolio li:nth-child(2) {background-color: yellow;}
-#aboutpage .navigationabout li:nth-child(3) {background-color: yellow;}
