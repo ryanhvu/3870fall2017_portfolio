@@ -4,8 +4,6 @@
 /*font-family: 'Slabo 27px', serif;
 font-family: 'Amatic SC', cursive;
 font-family: 'Sedgwick Ave Display', cursive; */
-
-
 .container {
  width: 1280px;
  margin-left:auto;
@@ -136,6 +134,13 @@ h5 {
    width: 736px;
    margin-left:auto;
    margin-right:auto;
+  }
+
+  .aboutpicture{
+    width: 736px;
+    margin-left:auto;
+    margin-right:auto;
+
   }
 
 }
