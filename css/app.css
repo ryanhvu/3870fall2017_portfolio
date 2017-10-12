@@ -1,11 +1,52 @@
 /* selector {property:value} */
 /* nav {border:1px solid black;} */
 
-nav {font-family: georgia;}
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Sedgwick Ave Display', cursive; */
+.container {
+ width: 1200px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+/*.image-cropper {
+    width: 25%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}*/
+
+img {
+    display: block;
+    margin: 50;
+    height: auto%;
+    width: auto%;
+}
+img.aboutpicture {
+    float:left;
+    display: block;
+    margin: 50;
+    height: auto%;
+    width: auto%;
+}
+
+nav
+  {font-family: 'Slabo 27px', serif;
+    font-size: 12pt;
+}
+
+.inquiry
+  {font-family: 'Slabo 27px', serif;
+    font-size: 12pt;
+}
+
 
 h1 {
   color: black;
-  font-family: georgia;
+  font-size: 48pt;
+  font-family: 'Amatic SC', cursive;
 }
 
 h2 {
@@ -15,20 +56,34 @@ h2 {
 
 h3 {
   color: black;
-  font-family: georgia;
+  font-size: 32pt;
+  font-family: 'Amatic SC', cursive;
 }
 
 h4 {
-    font-size: 12pt;
-    background-color: white;
-    margin: 70px;
-    padding: 30px;
-    font-family: georgia;
+    text-align: center;
+    font-size: 48pt;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Amatic SC', cursive;
 }
+
+.blurb {
+  float:right;
+  font-size: 14pt;
+  font-family: 'Slabo 27px', serif;
+}
+/*p.mobile {
+    font-size: 12pt;
+    font-family: 'Slabo 27px', serif;
+  }*/
+}
+
 
 h5 {
   color: black;
-  font-family: georgia;
+  font-family: 'Slabo 27px', serif;
 }
 
 .thumbnail {
@@ -51,7 +106,7 @@ h5 {
 .thumbnail img.portrait {
   position: absolute;
   left: 50%;
-  top: 100%;
+  top: 50%;
   height: auto;
   width: auto;
   -webkit-transform: translate(-50%,-50%);
@@ -67,6 +122,33 @@ h5 {
   width: auto;
   height: auto;
   overflow: hidden;
+}
+
+
+
+@media only screen and (min-width: 600px){
+  p.mobile{
+    display:none;
+  }
+
+  h4.mobile{
+    display:none;
+  }
+/*  .smallselfie{
+    display:none;
+  } */
+}
+@media only screen and (max-width:601px) {
+
+}
+
+/* .selfie{
+  display:none;
+} */
+
+
+
+  /* CSS for screens that are 600 pixels or less will be put in this section */
 }
 
 #indexpage .navigationhome li:nth-child(1) {background-color: yellow;}
