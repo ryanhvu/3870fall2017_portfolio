@@ -14,7 +14,7 @@
 
   </head>
   <body id="indexpage">
-    
+
 <center>
         <img data-interchange="[https://farm5.staticflickr.com/4469/37490949322_018bee780b_o.jpg, small],
         [https://farm5.staticflickr.com/4505/23670192628_52f3d4dce9_o.jpg, medium],
@@ -50,11 +50,46 @@
           <center><h1>VU</h1></center>
         </div>
 
-<div class="profilepicture cell small-12">
+
+        <script>
+        var today = new Date();
+        var hourNow = today.getHours();
+
+        console.log(today);
+        console.log(hourNow);
+
+        var greeting;
+
+          if (hourNow > 18) {
+              greeting = "<img src=https://farm5.staticflickr.com/4458/23813655298_6679a418c7_n.jpg>";
+            } else if (hourNow > 12) {
+              greeting = "<img src=https://farm5.staticflickr.com/4450/37408479480_146049f123_n.jpg";
+            } else if (hourNow > 0) {
+              greeting = "<img src=https://farm5.staticflickr.com/4489/23672842838_2daf7f08dc.jpg";
+            } else {
+              greeting = "<img src=https://farm5.staticflickr.com/4475/37633925352_db8966e2e7_n.jpg";
+
+              }
+
+
+        </script>
+
+
+<!--<div class="profilepicture cell small-12">
   <center>
   <img src="https://farm5.staticflickr.com/4489/23672842838_2daf7f08dc.jpg"
-  style="width:auto; height:auto;"/>
+  style="width:auto; height:auto;"/> -->
+<br>
+<center>
+    <script> document.write(greeting);
+    </script>
+
+
+
+
+
   </center>
+
 
 </div>
 
